@@ -20,7 +20,13 @@ public class EjercicioAprobadoSuspendido {
        
        calificacion = sc.nextInt();
        
-        System.out.println(calificacion);
+        if (calificacion>10) {
+            
+            System.out.println("Calificacion incorrecta");
+            
+        }
+       
+        //System.out.println(calificacion);
        
         
         
