@@ -20,11 +20,28 @@ public class EjercicioAprobadoSuspendido {
        
        calificacion = sc.nextInt();
        
-        if (calificacion>10) {
+        if (calificacion>10 || calificacion<=0) {
             
             System.out.println("Calificacion incorrecta");
             
+        } else{
+            
+            if (calificacion<5) {
+                
+                System.out.println("SUSPENDIDO");
+            } else if (calificacion <=8) {
+                 System.out.println("NOTABLE");
+
+            } else {
+                
+                System.out.println("SOBRESALIENTE");
+            }
+    
+            
+            
         }
+        
+        
        
         //System.out.println(calificacion);
        
